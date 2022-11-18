@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+    app:
+        build: .
+        volumes:
+                - ../../:/app
+        # entrypoint: ["tail", "-f", "/dev/null"]
+        entrypoint: /usr/bin/python app/entry.py
+        network_mode: 'host'
+        ports:
+                - '8080:5000'
+

@@ -1,0 +1,21 @@
+click==8.1.3
+Flask==2.1.2
+Flask-Cors==3.0.10
+Flask-MongoAlchemy
+flask_jwt_extended==4.3.1 # Librería para habilitar sesiones stateless a la API mediante tokens
+importlib-metadata==4.12.0
+bcrypt==3.2.0       # Generar las contraseñas
+simplejson==3.17.6
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+pymongo==4.1.1
+six==1.16.0
+Werkzeug==2.1.2
+zipp==3.8.0
+Pillow==9.1.0  # Para la optimización de las imágenes.
+python-dotenv==0.20.0
+fpdf==1.7.2
+fpdf2==2.5.7
+dnspython==2.2.1
+
